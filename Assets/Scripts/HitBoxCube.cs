@@ -14,9 +14,9 @@ public class HitBoxCube : MonoBehaviour
     }
     public void golpe()
     {
-        meshRenderer.material = hit;
+        Destroy(gameObject);
+        //meshRenderer.material = hit;
     }
-
 
 
 }
